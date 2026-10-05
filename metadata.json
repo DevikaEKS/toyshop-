@@ -1,0 +1,6 @@
+{
+  "name": "Lark & Timber Toys",
+  "description": "Artisanal heirloom toys, wooden puzzles, and imaginative play essentials crafted for wonder and generations of joy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
