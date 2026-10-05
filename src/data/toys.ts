@@ -1,6 +1,11 @@
 import { ToyProduct, Review } from '../types/toy';
+import heroImg from '../assets/images/hero_toy_emporium_1791180922008.jpg';
+import trainImg from '../assets/images/toy_wooden_locomotive_1791180934584.jpg';
+import dollhouseImg from '../assets/images/toy_scandi_dollhouse_1791180945395.jpg';
+import stonesImg from '../assets/images/toy_stacking_stones_1791180955262.jpg';
+import bearImg from '../assets/images/toy_plush_linen_bear_1791180965132.jpg';
 
-export const HERO_IMAGE = '/src/assets/images/hero_toy_emporium_1791180922008.jpg';
+export const HERO_IMAGE = heroImg;
 
 export const TOY_PRODUCTS: ToyProduct[] = [
   {
@@ -19,7 +24,7 @@ export const TOY_PRODUCTS: ToyProduct[] = [
     material: 'FSC®-Certified Beechwood, Solid Brass Rivets, Food-grade Linseed Oil Finish',
     dimensions: '38 cm × 6.5 cm × 8.5 cm (Complete 3-piece set)',
     origin: 'Hand-assembled in Germany',
-    image: '/src/assets/images/toy_wooden_locomotive_1791180934584.jpg',
+    image: trainImg,
     inStock: true,
     isBestseller: true,
     safetyCert: 'ASTM F963 & EN-71 Non-Toxic Certified',
@@ -46,7 +51,7 @@ export const TOY_PRODUCTS: ToyProduct[] = [
     material: 'Baltic Birch Plywood & White Oak, Plant-based Mineral Wax',
     dimensions: '48 cm × 32 cm × 54 cm',
     origin: 'Crafted in Estonia',
-    image: '/src/assets/images/toy_scandi_dollhouse_1791180945395.jpg',
+    image: dollhouseImg,
     inStock: true,
     isBestseller: true,
     safetyCert: 'EN-71 / CE Safety Standards Approved',
@@ -72,7 +77,7 @@ export const TOY_PRODUCTS: ToyProduct[] = [
     material: 'Sugar Maple & Linden Wood, Non-toxic Plant Pigments',
     dimensions: '16 unique stones ranging from 4 cm to 11 cm',
     origin: 'Crafted in Vermont, USA',
-    image: '/src/assets/images/toy_stacking_stones_1791180955262.jpg',
+    image: stonesImg,
     inStock: true,
     isNewArrival: true,
     safetyCert: 'CPSIA & ASTM F963 Tested for 0+ Safe Mouthing',
@@ -98,7 +103,7 @@ export const TOY_PRODUCTS: ToyProduct[] = [
     material: '100% GOTS-Certified Organic Flax Linen, Pure Wool Fill, Merino Wool Scarf',
     dimensions: '32 cm standing height',
     origin: 'Hand-sewn in Lithuania',
-    image: '/src/assets/images/toy_plush_linen_bear_1791180965132.jpg',
+    image: bearImg,
     inStock: true,
     isBestseller: true,
     safetyCert: 'OEKO-TEX® Standard 100 Class I Certified',
@@ -124,7 +129,7 @@ export const TOY_PRODUCTS: ToyProduct[] = [
     material: 'Solid Walnut Wood, Brass Components, Precision Glass Optics',
     dimensions: '22 cm × 18 cm × 12 cm',
     origin: 'Manufactured in Sheffield, UK',
-    image: '/src/assets/images/hero_toy_emporium_1791180922008.jpg',
+    image: heroImg,
     inStock: true,
     isNewArrival: true,
     safetyCert: 'STEM Educational Certified, Lead-Free Brass',
@@ -150,7 +155,7 @@ export const TOY_PRODUCTS: ToyProduct[] = [
     material: 'Kiln-Dried Ash Hardwood, Solid Brass Hardware, Unbleached Cotton Strap',
     dimensions: '28 cm × 20 cm × 6 cm',
     origin: 'Crafted in Oregon, USA',
-    image: '/src/assets/images/toy_stacking_stones_1791180955262.jpg',
+    image: stonesImg,
     inStock: true,
     safetyCert: 'CPSIA Certified Non-Toxic & Splinter-Free',
     features: [
@@ -175,7 +180,7 @@ export const TOY_PRODUCTS: ToyProduct[] = [
     material: 'Aromatic Red Cedar, Brass Ballast, Natural Cotton Canvas, Waxed Rigging',
     dimensions: '35 cm length × 42 cm mast height',
     origin: 'Carved in Maine, USA',
-    image: '/src/assets/images/toy_wooden_locomotive_1791180934584.jpg',
+    image: trainImg,
     inStock: true,
     safetyCert: 'Tested for Fresh & Salt Water Flotation Safety',
     features: [
@@ -201,7 +206,7 @@ export const TOY_PRODUCTS: ToyProduct[] = [
     material: 'Solid Cherry Wood, Maple, 18-Note Sankyo Brass Clockwork Movement',
     dimensions: '14 cm diameter × 19 cm height',
     origin: 'Crafted in the Black Forest, Germany',
-    image: '/src/assets/images/toy_scandi_dollhouse_1791180945395.jpg',
+    image: dollhouseImg,
     inStock: true,
     isBestseller: true,
     safetyCert: 'Mechanical Safety Tested & Finger-Pinch Guarded',
